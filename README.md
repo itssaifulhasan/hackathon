@@ -50,9 +50,23 @@ However, since its completely a new solution in the market, and also the current
 - Attitude towards Social distance : The tweets from twitters with query 'social distance' in NYC location for the period of 3 months March to May. The dataset was collected for a project we did during our GA DSI program
 - Attitude towards magic wrist band - The title texts of the subreddit submissions where 'magic band' phrase was present [subreddit Disney World](https://www.reddit.com/r/WaltDisneyWorld/)
 
+
+### Using VEDAR for Sentiment Analysis
+For our sentiment analysis, we used VADER(Valence Aware Dictionary and sEntiment Reasoner).VADER is specifically used to sentiments expressed in social media. It is fully open-sourced under the [MIT License](https://pypi.org/project/vaderSentiment/). It is easy-to-use and powerful package which has been found quite successful when dealing with social media texts, movie reviews, and product reviews. 
+
+VADER has a lot of advantages over traditional methods for [Sentiment Analysis](https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f#:~:text=Advantages%20of%20using%20VADER,methods%20of%20Sentiment%20Analysis%2C%20including%3A&text=It%20doesn't%20require%20any,online%20with%20streaming%20data%2C%20an). While it works well on social media type text, it can also readily generalize to different domains. VADER doesn’t require your dataset to split into traning and testing data, which is perfect for our study in utilizing an unsupervised learning model. It is constructed from a generalizable, valence-based, human-curated gold standard sentiment lexicon. It does not severely suffer from a speed-performance tradeoff. It doesn't occupy much RAM to run and that's why it is fast enough to be used online with streaming data.
+
+VADER outputs four scores - positive score, neutral scores, negative scores, and composite score (a mix of the first three scores). The [Compound score](https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/) is a metric that calculates the sum of all the lexicon ratings which have been normalized between -1(most extreme negative) and +1 (most extreme positive). In our analysys we only generated three scores - positive, negtaive, and neutral.
+
+
+
 ### Reference
 [1] [Technology Adaptation](https://ourworldindata.org/technology-adoption)
 [2] [LINK NYC](https://data.world/city-of-ny/69wu-b929)
 [3] [subreddit Mask](https://www.reddit.com/r/Masks/)
 [4] [subreddit Disney World](https://www.reddit.com/r/WaltDisneyWorld/)
 [5] [IAPP](https://iapp.org/resources/article/state-comparison-table/)
+[6] [MIT](https://pypi.org/project/vaderSentiment/)
+[7] [geeksforgeeks](https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/)
+[8] [Parul Pandey](https://medium.com/analytics-vidhya/simplifying-social-media-sentiment-analysis-using-vader-in-python-f9e6ec6fc52f#:~:text=Advantages%20of%20using%20VADER,methods%20of%20Sentiment%20Analysis%2C%20including%3A&text=It%20doesn't%20require%20any,online%20with%20streaming%20data%2C%20an)
+[9] [VADER Coder](https://github.com/tangina-a)
