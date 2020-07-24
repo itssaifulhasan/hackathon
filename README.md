@@ -43,13 +43,14 @@ However, since its completely a new solution in the market, and also the current
      - We are introducing this new contact-less check-in system to keep the social distance, and
      - At the entry, our user can do check-in using their mobile app, or bar-code printed mask. If the user doesn't want to or cannot use a mobile app to scan at the kiosk, the consumer could use a mask to make the check-in. So, we wanted to see users' acceptance or attritudes towards mask in geenral. Besides, since our mask would be with QR code which is completely new in the market we decided to see the cosumers' attitude towards the relevant product, magic band offered by Disney world. Thus, we thought that investigating these features would give us an overall idea of how consumers might react to our new innovative system.
 
-##### Data Sources
+Our data sources:
 - Technological adaptation (secondary dataset; [Technology Adaptation](https://ourworldindata.org/technology-adoption))
 - Attitude towards Kiosk :  LINK NYC (secondary dataset; [LINK NYC](https://data.world/city-of-ny/69wu-b929))
 - Attitude towards Mask : The title texts of the subreddit submissions [subreddit Mask](https://www.reddit.com/r/Masks/)
 - Attitude towards Social distance : The tweets from twitters with query 'social distance' in NYC location for the period of 3 months March to May. The dataset was collected for a project we did during our GA DSI program
 - Attitude towards magic wrist band - The title texts of the subreddit submissions where 'magic band' phrase was present [subreddit Disney World](https://www.reddit.com/r/WaltDisneyWorld/)
 
+Another Limitation is that we have very limited data, which is obviously not enough. So, instead of generalizing the results, we would say that the insights we got analysis we did with limited data set helped us to give some leads to move forward. However, our findings from the below analyses are consistant with interview data our team, mainly the UX team collected.   
 
 ### Using VEDAR for Sentiment Analysis
 For our sentiment analysis, we used VADER(Valence Aware Dictionary and sEntiment Reasoner).VADER is specifically used to sentiments expressed in social media. It is fully open-sourced under the [MIT License](https://pypi.org/project/vaderSentiment/). It is easy-to-use and powerful package which has been found quite successful when dealing with social media texts, movie reviews, and product reviews. 
