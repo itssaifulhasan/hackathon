@@ -4,7 +4,7 @@
 
 <img src="./images/Untitled.png" width="300"/>
 <img src="./images/fdffdf.jpg" width="220"/>
-*Design by : Taylor Davenport & Kelsey Payne*
+_Design by : Taylor Davenport & Kelsey Payne_
 
 ### Problem Statement
 The recent Covid 19 pandemic has changed a lot of our lifestyle and the way we do things. When live sports and entertainment return, the event organizers would be required to pay an enhanced focus on consumer safety and well-being. As a result, being in the event business, Octagon is looking for creative technology solutions to limit contact and encourage social distancing practices on-site. Therefore, we the team, Handoff, have developed an innovative contactless consumer check-in platform to be used on-site at live events.  
