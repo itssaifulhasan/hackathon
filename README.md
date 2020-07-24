@@ -1,3 +1,11 @@
+### Hackathon (Data Science Part)
+
+#### Team Members: Saiful Hasan & Taylor Davenport & Kelsey Payne & Ipsita Rao & james white 
+
+<img src="./images/Untitled.png" width="300"/>
+<img src="./images/fdffdf.jpg" width="220"/>
+*Design by : Taylor Davenport & Kelsey Payne*
+
 ### Problem Statement
 The recent Covid 19 pandemic has changed a lot of our lifestyle and the way we do things. When live sports and entertainment return, the event organizers would be required to pay an enhanced focus on consumer safety and well-being. As a result, being in the event business, Octagon is looking for creative technology solutions to limit contact and encourage social distancing practices on-site. Therefore, we the team, Handoff, have developed an innovative contactless consumer check-in platform to be used on-site at live events.  
 
@@ -41,3 +49,10 @@ However, since its completely a new solution in the market, and also the current
 - Attitude towards Mask : The title texts of the subreddit submissions [subreddit Mask](https://www.reddit.com/r/Masks/)
 - Attitude towards Social distance : The tweets from twitters with query 'social distance' in NYC location for the period of 3 months March to May. The dataset was collected for a project we did during our GA DSI program
 - Attitude towards magic wrist band - The title texts of the subreddit submissions where 'magic band' phrase was present [subreddit Disney World](https://www.reddit.com/r/WaltDisneyWorld/)
+
+### Reference
+[1] [Technology Adaptation](https://ourworldindata.org/technology-adoption)
+[2] [LINK NYC](https://data.world/city-of-ny/69wu-b929)
+[3] [subreddit Mask](https://www.reddit.com/r/Masks/)
+[4] [subreddit Disney World](https://www.reddit.com/r/WaltDisneyWorld/)
+[5] [IAPP](https://iapp.org/resources/article/state-comparison-table/)
