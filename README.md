@@ -50,7 +50,8 @@ Our data sources:
 - Attitude towards Social distance : The tweets from twitters with query 'social distance' in NYC location for the period of 3 months March to May. The dataset was collected for a project we did during our GA DSI program
 - Attitude towards magic wrist band - The title texts of the subreddit submissions where 'magic band' phrase was present [subreddit Disney World](https://www.reddit.com/r/WaltDisneyWorld/)
 
-Another Limitation is that we have minimal data, which is obviously not enough. So, instead of generalizing the results, we would say that the insights we got analysis we did with limited data set helped us to give some leads to move forward. However, our findings from the below studies are consistent with interview data our team, mainly the UX team collected.   
+Another Limitation is that we have minimal data, which is obviously not enough. So, instead of generalizing the results, we would say that the insights we got analysis we did with limited data set helped us to give some leads to move forward. However, our findings from the below studies are consistent with interview data our team, mainly the UX team collected.  
+
 
 ### Using VEDAR for Sentiment Analysis
 For our sentiment analysis, we used VADER(Valence Aware Dictionary and sEntiment Reasoner).VADER is specifically used to sentiments expressed in social media. It is fully open-sourced under the [MIT License](https://pypi.org/project/vaderSentiment/). It is easy-to-use and powerful package which has been found quite successful when dealing with social media texts, movie reviews, and product reviews. 
@@ -59,7 +60,7 @@ VADER has a lot of advantages over traditional methods for [Sentiment Analysis](
 
 VADER outputs four scores - positive score, neutral scores, negative scores, and composite score (a mix of the first three scores). The [Compound score](https://www.geeksforgeeks.org/python-sentiment-analysis-using-vader/) is a metric that calculates the sum of all the lexicon ratings which have been normalized between -1(most extreme negative) and +1 (most extreme positive). In our analysys we only generated three scores - positive, negtaive, and neutral.
 
-
+ 
 
 ### Reference
 [1] [Technology Adaptation](https://ourworldindata.org/technology-adoption)
